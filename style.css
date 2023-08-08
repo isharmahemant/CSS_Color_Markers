@@ -1,0 +1,44 @@
+body {
+  /* font-family: sans-serif; */
+  text-align: center;
+}
+
+h1 {
+  background-color: rgba(0, 136, 163, 0.94);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.red {
+  width: 200px;
+  height: 25px;
+  background: linear-gradient(
+    180deg,
+    rgb(122, 74, 14),
+    rgb(200, 0, 10),
+    rgb(242, 0, 12)
+  );
+  border-radius: 3px;
+  margin: 10px auto;
+}
+
+.green {
+  width: 200px;
+  height: 25px;
+  background-color: green;
+  border-radius: 3px;
+  margin: 10px auto;
+}
+
+.blue {
+  width: 200px;
+  height: 25px;
+  background-color: blue;
+  border-radius: 3px;
+  margin: 10px auto;
+}

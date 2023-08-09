@@ -15,5 +15,6 @@ DOCUMENTATION
 .Now use the box-shadow property to give shadows to your markers. "you can use any CSS color values of your choice - rgb, rgba, hex with alpha or hsl, hsla.
 .Create a footer and use <p> tag to give the desired text to your footer.
 .In the footer, CSS rule use margin and border-radius if you use the background-color property.
+
 _Please feel free to share any suggestions, recommendations, or fixes that you may have..._
 _This project is part of my learning process and reflects the knowledge I have accumulated so far on my journey to becoming a front-end developer.._

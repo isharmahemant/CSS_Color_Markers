@@ -1,8 +1,6 @@
 # CSS_Color_Markers
 
 DOCUMENTATION
-
-<h2> hello</h2>
 .Create index.html and style.css and link style.css using the link tag.
 .Give the heading to the project using the h1 tag "background-color and font-size is optional".
 .Create a container using a div tag with the class "container".

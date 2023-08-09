@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  font-size: 40px;
   background-color: rgba(0, 136, 163, 0.94);
   color: rgb(255, 255, 255);
   border-radius: 5px;

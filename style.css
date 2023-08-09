@@ -1,5 +1,4 @@
 body {
-  /* font-family: sans-serif; */
   text-align: center;
 }
 
@@ -10,35 +9,55 @@ h1 {
 }
 
 .container {
-  border: 1px solid black;
-  border-radius: 3px;
+  padding: 10px 0;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+  border-radius: 2px;
+}
+
+.cap {
+  width: 65px;
+  margin: 0px auto;
+}
+
+.sleeve {
+  width: 110px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-left: 10px double rgb(0, 0, 0);
 }
 
 .red {
-  width: 200px;
-  height: 25px;
   background: linear-gradient(
     180deg,
     rgb(122, 74, 14),
-    rgb(200, 0, 10),
-    rgb(242, 0, 12)
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
   );
-  border-radius: 3px;
-  margin: 10px auto;
-}
+  box-shadow: 0px 0px 20px 0px rgba(83, 14, 14, 0.8);
+} /*rgb color code is used for marker gradient & rgba color code is used for box shadow */
 
 .green {
-  width: 200px;
-  height: 25px;
-  background-color: green;
-  border-radius: 3px;
-  margin: 10px auto;
-}
+  background: linear-gradient(#55680d, #71f53e, #116c31);
+  box-shadow: 0px 0px 20px 0px #3b7e20cc;
+} /* hex color code is used for gradient & hex color with alpha is used for box shadow */
 
 .blue {
-  width: 200px;
-  height: 25px;
-  background-color: blue;
-  border-radius: 3px;
-  margin: 10px auto;
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
+  box-shadow: 0px 0px 20px 0px hsla(233, 59%, 31%, 0.8);
+} /* hsl color code is used for gradient & hsla color code is used for box-shadow */
+
+footer {
+  background-color: rgb(0, 136, 163);
+  color: rgb(255, 255, 255);
+  border-radius: 2px;
+  margin: 30px auto;
 }
